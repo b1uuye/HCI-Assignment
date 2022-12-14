@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styling.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3b9c76ecc4.js" crossorigin="anonymous"></script>
+    <title>Fault Report | Technician View</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.uea.ac.uk/">
+        <img src="/pictures/university-of-east-anglia-logo.png" alt="UEA Logo" width="50" height="30">
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="user.html">User</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="staff.html">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="technician.html">Technician</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="links">
+    <ul>
+      <li class="li-list active" data-view="list-view">
+        <i class="fa-solid fa-table-list"></i></li>
+      <li class="li-grid" data-view="grid-view">
+        <i class="fa-solid fa-table-cells-large"></i></li>
+      
+    </ul>
+    <div class="view_main">
+      <div class="view_wrap list-view" style="display: block;">
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/broken bulb.jpg" alt="brokenbulb">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Bulb</p>
+            <p class="content">My bulb suddenly exploded one day after turning it on via the light switch.</p>
+            <a href="expandtech.html" target="_blank">
+            <div class="btn">View More</div>
+          </a>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/broken desk chair.jpg" alt="brokenchair">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Desk Chair</p>
+            <p class="content">I sat on my desk chair and felt it wobble. I lost balance and after standing up realised the the chair was broken.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/shower head.jpg" alt="showerhead">
+          </div>
+          <div class="vi_right">
+            <p class="title">Shower Head</p>
+            <p class="content">I went to use the shower one morning and realised that water was not running through. The tube is broken.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/leaking sink pipe.jpg" alt="sinkpipe">
+          </div>
+          <div class="vi_right">
+            <p class="title">Leaking Sink Pipe</p>
+            <p class="content">There has been a massive leak inside the kitchen, and after checking the pipes, the pipe is not fully tightened.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/brokenlock.jpg" alt="doorlock">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Door Lock</p>
+            <p class="content">My lock has broken. It came loose the other night and the hinges completely fell out.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/smokedetector.jpg" alt="smokedetec">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Smoke Detector</p>
+            <p class="content">My smoke detector has broken and I fear that this is a major hazard inside my room.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="view_wrap grid-view" style="display: none;">
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/broken bulb.jpg" alt="brokenbulb">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Bulb</p>
+            <p class="content">My bulb suddenly exploded one day after turning it on via the light switch.</p>
+            <a href="expandtech.html" target="_blank">
+            <div class="btn">View More</div>
+          </a>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/broken desk chair.jpg" alt="brokenchair">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Desk Chair</p>
+            <p class="content">I sat on my desk chair and felt it wobble. I lost balance and after standing up realised the the chair was broken.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/shower head.jpg" alt="showerhead">
+          </div>
+          <div class="vi_right">
+            <p class="title">Shower Head</p>
+            <p class="content">I went to use the shower one morning and realised that water was not running through. The tube is broken.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/leaking sink pipe.jpg" alt="sinkpipe">
+          </div>
+          <div class="vi_right">
+            <p class="title">Leaking Sink Pipe</p>
+            <p class="content">There has been a massive leak inside the kitchen, and after checking the pipes, the pipe is not fully tightened.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/brokenlock.jpg" alt="doorlock">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Door Lock</p>
+            <p class="content">My lock has broken. It came loose the other night and the hinges completely fell out.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+        <div class="view_item">
+          <div class="vi_left">
+            <img src="/pictures/smokedetector.jpg" alt="smokedetec">
+          </div>
+          <div class="vi_right">
+            <p class="title">Broken Smoke Detector</p>
+            <p class="content">My smoke detector has broken and I fear that this is a major hazard inside my room.</p>
+            <div class="btn">View More</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
