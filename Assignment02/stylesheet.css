@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #F5F5F5;
+    color: Black;
+    line-height: 1.5;
+}
+
+header {
+    background: #F5F5F5;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-block;
+    overflow: hidden;
+    height: 90px;
+    /* float: left; */
+    cursor: pointer;
+}
+
+header h1 {
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-size: 38px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #282A3A;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: grey;
+}
+
+nav {
+    height: 55px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    padding: 15px 40px;
+}
+
+.active {
+    background-color: rgb(81, 102, 97, .3);
+}
+
+p {
+    margin: 15px auto
+}
+
+footer {
+    background-color: #282A3A;
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    padding: 5px;
+    margin-top: 32px;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:hover {
+    color: #e8fff9;
+}
+
+
+/* START OF LANDING PAGE */
+
+.home-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://thenorwichradical.files.wordpress.com/2020/09/30254081981_d01c1c0270_k.jpg?w=918)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.home-pic .content {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+    margin: 50px 20px;
+}
+
+.container .box {
+    width: 500px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#photo {
+    width: 450px;
+    height: 200px;
+}
+
+.click-button {
+    width: 50%;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #282A3A;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+/* END OF LANDING PAGE */
+
+
+/* START OF REPORT PAGE */
+
+.report-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(http://www.darrenleaderstudio.co.uk/wp-content/uploads/2015/04/UEA-Annual-Report-1.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+
+/* END OF REPORT PAGE */
+
+
+/* START OF HELP PAGE */
+
+.help-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://3ccontactservices.com/wp-content/uploads/2017/02/call-centre-vs-help-desk.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.help-pic .content {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.faq-block {
+    align-items: center;
+    margin: 10px 30px;
+    padding: 40px;
+    max-width: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.order-block {
+    padding: 0 20px;
+}
+
+.each-block {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.each-block.active .block-header {
+    background: black;
+    color: white;
+}
+
+.each-block.active .answer {
+    display: block;
+}
+
+.block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.answer {
+    padding: 15px 20px;
+    border: 2px solid black;
+    background: white;
+    margin: 0;
+    display: none;
+}
+
+
+/* END OF HELP PAGE */
+
+
+/* START OF LOGIN PAGE */
+
+
+/* END OF LOGIN PAGE */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fault Report: Help</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/67bd86ffdc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- to style for smaller screen -->
+        <header>
+            <a href="landing.html"><img id="logo" src="images/uea-logo.png" alt="uea logo"></a>
+            <h1>Fault Report</h1>
+        </header>
+
+        <nav id="mainNav">
+            <ul class="mainNav">
+                <li class="nav"><a href="landing.html">Home</a></li>
+                <li class="nav"><a href="report.html">Report</a></li>
+                <li class="nav active"><a href="help.html">Help</a></li>
+                <li class="nav "><a href="login.html">LogIn</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="help-pic" id="help-pic">
+                <div class="content">
+                    <h2>Help Centre</h2>
+                    <h3>Questions on how, which, where, why and who?</h3>
+                    <h3>Read through the information below. </h3>
+                </div>
+            </section>
+
+            <div class="faq-block">
+                <h1 class="header">Frequently asked questions</h1>
+
+                <div class="order-block">
+
+                    <div class="each-block">
+                        <div class="block-header">
+                            <h3>Question 01</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <p class="answer">
+                            answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer.
+                        </p>
+                    </div>
+
+                    <div class="each-block">
+                        <div class="block-header">
+                            <h3>Question 02</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <p class="answer">
+                            answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer.
+                        </p>
+                    </div>
+
+                    <div class="each-block">
+                        <div class="block-header">
+                            <h3>Question 03</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <p class="answer">
+                            answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer.
+                        </p>
+                    </div>
+
+                    <div class="each-block">
+                        <div class="block-header">
+                            <h3>Question 04</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <p class="answer">
+                            answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer.
+                        </p>
+                    </div>
+
+                    <div class="each-block">
+                        <div class="block-header">
+                            <h3>Question 05</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <p class="answer">
+                            answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </main>
+        <footer>
+            <p>Copyright ©2022 UEA Fault Report by <a href="pdt20ymu@uea.ac.uk">Jun Tai & </a>
+                <a href="i.onibudo@uea.ac.uk">Israel Onibudo</a></p>
+
+        </footer>
+    </div>
+
+    <script>
+        let theblock = document.querySelectorAll('.each-block');
+
+        theblock.forEach(block => {
+            block.onclick = () => {
+                theblock.forEach(subBlock => {
+                    subBlock.classList.remove('active')
+                });
+                block.classList.add('active');
+            }
+        })
+    </script>
+</body>
+
+</html>
